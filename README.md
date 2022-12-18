@@ -40,7 +40,7 @@ python3 rtt_view.py -v -s <JLink sequence number> [-p <log file prefix> -t]
 ```
 The optional parameter `-p` is same as the log reader.
 
-The optional parameter `-t` let the program to start a thread which continuous reading of the board's output.
+The optional parameter `-t` let the program to start a thread which continuous reading the board's output.
 Otherwise, the program will only read the output once after the user send some message to the board.
 
 ## Tips
